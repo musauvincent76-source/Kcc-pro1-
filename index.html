@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KCC PRO BOT - Official</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Rajdhani:wght@600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#020a06;color:#aaffcc;font-family:'Rajdhani',sans-serif;min-height:100vh;display:flex;justify-content:center;align-items:center;padding:15px}
+.bg{position:fixed;inset:0;background:radial-gradient(ellipse at center,#0a2a14 0%,#020a06 70%);z-index:-2}
+.container{width:100%;max-width:420px;border:2px solid #00ff88;border-radius:22px;padding:18px;background:rgba(0,20,10,0.92);box-shadow:0 0 25px #00ff8855}
+.title{font-family:'Orbitron';font-weight:900;font-size:38px;text-align:center;color:#7fff7f;text-shadow:0 0 15px #00ff88;margin:15px 0}
+.subtitle{text-align:center;font-family:'Orbitron';font-size:20px;color:#7ef8ff;margin:18px 0}
+.btn{width:100%;display:flex;align-items:center;gap:14px;padding:16px 18px;margin:14px 0;border-radius:14px;border:2px solid #00ff88;background:linear-gradient(90deg,rgba(0,255,136,0.1),rgba(0,229,255,0.08));color:#8af8ff;font-size:18px;font-weight:700;text-decoration:none}
+.btn:hover{transform:scale(1.02);box-shadow:0 0 20px #00ff88aa}
+.bottom{display:flex;gap:12px;margin-top:22px}
+.small{flex:1;font-size:13px;justify-content:center;padding:14px 8px}
+.footer{text-align:center;margin-top:18px;font-size:10px;letter-spacing:2px;color:#5affff;opacity:0.8}
+.pair-box{display:none;margin-top:15px;background:#00150a;border:1px solid #00ff88;border-radius:12px;padding:15px}
+.pair-box input{width:100%;padding:12px;border-radius:8px;border:1px solid #00ff88;background:#000;color:#00ff88;margin:10px 0}
+.pair-box button{width:100%;padding:12px;background:linear-gradient(90deg,#00ff88,#00e5ff);border:none;border-radius:8px;font-weight:900;color:#000;cursor:pointer}
+</style>
+</head>
+<body>
+<div class="bg"></div>
+<div class="container">
+<div class="title">KCC PRO BOT</div>
+<div class="subtitle">BOT MENU:</div>
+<a class="btn" href="#"><span>💳</span> 1. Balance Check</a>
+<a class="btn" href="#"><span>📶</span> 2. Buy Data Bundle</a>
+<a class="btn" href="#"><span>🎧</span> 3. Support / Help Desk</a>
+<a class="btn" href="#"><span>🕒</span> 4. Transaction History</a>
+<a class="btn" href="#"><span>⚙️</span> 5. Settings & Profile</a>
+<div class="bottom">
+<button class="btn small" onclick="document.getElementById('pairBox').style.display='block'"><span>🔗</span> PAIRING CODE</button>
+<a class="btn small" href="https://kcc-pro-1.onrender.com" target="_blank"><span>☰</span> MAIN MENU</a>
+</div>
+<div id="pairBox" class="pair-box">
+<input id="phone" placeholder="2547XXXXXXXX">
+<button onclick="window.open('https://kcc-pro-1.onrender.com','_blank')">GET CODE</button>
+</div>
+<div class="footer">• POWERED BY ALEX MUSAU • SECURE • FAST • 24/7 ONLINE •</div>
+</div>
+</body>
+</html>
